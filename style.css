@@ -1,0 +1,124 @@
+/* Global Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Header Styles */
+h2 {
+    text-align: center;
+    color: #18181B;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color:  #18181B;
+    font-weight: 600;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #18181B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Response Message Styles */
+.responseMessage {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.success {
+    color: white;
+    background-color: #28a745;
+    border: 1px solid #218838;
+}
+
+.success::before {
+    content: "✔️";
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.error {
+    color: white;
+    background-color: #dc3545;
+    border: 1px solid #c82333;
+}
+
+.error::before {
+    content: "❌";
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Link Styling */
+p {
+    text-align: center;
+    color: #18181B;
+    font-size: 14px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
